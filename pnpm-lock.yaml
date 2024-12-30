@@ -45,8 +45,8 @@ importers:
         specifier: 3.0.0-4030620241128001
         version: 3.0.0-4030620241128001(postcss@8.4.49)(rollup@4.24.4)(vue@3.5.13(typescript@5.6.3))
       '@dcloudio/uni-mp-weixin':
-        specifier: 3.0.0-4020920240930001
-        version: 3.0.0-4020920240930001(postcss@8.4.49)(rollup@4.24.4)(vue@3.5.13(typescript@5.6.3))(webpack-sources@3.2.3)
+        specifier: 3.0.0-4030620241128001
+        version: 3.0.0-4030620241128001(postcss@8.4.49)(rollup@4.24.4)(vue@3.5.13(typescript@5.6.3))
       '@dcloudio/uni-mp-xhs':
         specifier: 3.0.0-4030620241128001
         version: 3.0.0-4030620241128001(postcss@8.4.49)(rollup@4.24.4)(vue@3.5.13(typescript@5.6.3))
@@ -811,9 +811,6 @@ packages:
 
   '@dcloudio/uni-mp-vue@3.0.0-4030620241128001':
     resolution: {integrity: sha512-el5ZV62PK4KMhn3kyoAZWsFsDdHVXdTHVtTw++gzzG5PPIdCYgPtGGNZoJO0ZgPWfgtWw9MCoYRqdjFWSOmgBg==}
-
-  '@dcloudio/uni-mp-weixin@3.0.0-4020920240930001':
-    resolution: {integrity: sha512-ip/OtXFLlnkztxOXMXPsjktp9rSo+c1OxlCase32xBVn+Jt0GyIFiA6Js9icz5uwIXtt14jWi4mRXfjncUV7QA==}
 
   '@dcloudio/uni-mp-weixin@3.0.0-4030620241128001':
     resolution: {integrity: sha512-G3aw7dZUxpO3AvAX8gHbT9fq1LMn++GpE3rHRlXhrE9F+C9eVrRtwqt9EdVszZvJJu8X9aSK9kvaLFFgdSUGiw==}
@@ -5169,30 +5166,6 @@ snapshots:
     dependencies:
       '@dcloudio/uni-shared': 3.0.0-4030620241128001
       '@vue/shared': 3.4.21
-
-  '@dcloudio/uni-mp-weixin@3.0.0-4020920240930001(postcss@8.4.49)(rollup@4.24.4)(vue@3.5.13(typescript@5.6.3))(webpack-sources@3.2.3)':
-    dependencies:
-      '@dcloudio/uni-cli-shared': 3.0.0-4020920240930001(postcss@8.4.49)(rollup@4.24.4)(vue@3.5.13(typescript@5.6.3))(webpack-sources@3.2.3)
-      '@dcloudio/uni-mp-vite': 3.0.0-4020920240930001(postcss@8.4.49)(rollup@4.24.4)(vue@3.5.13(typescript@5.6.3))(webpack-sources@3.2.3)
-      '@dcloudio/uni-mp-vue': 3.0.0-4020920240930001
-      '@dcloudio/uni-shared': 3.0.0-4020920240930001
-      '@vue/shared': 3.4.21
-      jimp: 0.10.3
-      licia: 1.40.0
-      qrcode-reader: 1.0.4
-      qrcode-terminal: 0.12.0
-      ws: 8.17.0
-    transitivePeerDependencies:
-      - '@nuxt/kit'
-      - '@vueuse/core'
-      - bufferutil
-      - postcss
-      - rollup
-      - supports-color
-      - ts-node
-      - utf-8-validate
-      - vue
-      - webpack-sources
 
   '@dcloudio/uni-mp-weixin@3.0.0-4030620241128001(postcss@8.4.49)(rollup@4.24.4)(vue@3.5.13(typescript@5.6.3))':
     dependencies:
